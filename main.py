@@ -25,7 +25,7 @@ while True:
 
     print("Current ping: ", ms_time)
 
-    if int(ms_time) > 1:
+    if int(ms_time) > 900:
         notification.notify()
         PlaySound("wah.wav", SND_FILENAME)
         time.sleep(60)
